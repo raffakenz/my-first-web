@@ -1,0 +1,221 @@
+*, html {
+    padding: 0;
+    margin: 0;
+    background-color: #1b1e29;
+    box-sizing: border-box;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 2rem;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4rem;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+nav ul li a {
+    color: #00ffa9;
+    text-decoration: none;
+    padding: 4px 0;
+    transition: all;
+    transition-duration: 0.2s;
+    border-bottom: 2px solid #00ffaa00;
+}
+
+nav div img {
+    width: 190px;
+    height: 35px;
+    margin-top: 5px;
+}
+
+.logo-utama {
+    width: 330px;
+    height: 265px;
+    margin-bottom: 5rem;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid #00ffa9;
+    color: white;
+}
+
+span {
+    color: #00ffa9;
+}
+
+
+.kenz-h1 .graphic-h1 {
+    display: flex;
+}
+
+section {
+    color: white;
+}
+
+section div {
+    margin-bottom: 3rem;
+}
+
+.biodata {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+}
+
+.biodata-content {
+    max-width: 800px;
+}
+
+.biodata-content h2 {
+    font-size: 45px;
+}
+
+.biodata-content h1 {
+    font-size: 65px;
+    line-height: 1;
+}
+
+.biodata-content p {
+    font-size: 18px;
+    margin: 25px 0 30px;
+    line-height: 24px;
+}
+
+.tombol-box {
+    width: 350px;
+    display: flex;
+    gap: 2em;
+}
+
+.tombol-1 {
+    padding: 15px 30px;
+    background-color: #00ffa9;
+    color: #1b1e29;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 800;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.tombol-1:hover {
+    border: 2px solid #00ffa9;
+  background-color: transparent;
+  color: white;
+}
+
+.skill {
+    list-style: none;
+    width: 500px;
+    margin: 60px auto;
+    color: white;
+    padding: 20px;
+}
+
+.skill li {
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.h1-skill {
+    text-align: center;
+    color: #00ffa9;
+    font-size: 50px;
+}
+
+h3 {
+    margin: 5px;
+    font-size: 30px;
+}
+
+.bar {
+    background: #1c2e6f;
+    display: block;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.bar span {
+    height: 20px;
+    float: left;
+    background: #4069ff;
+    border-radius: 10px;
+}
+
+.photoshop {
+    width: 80%;
+    animation: photoshop 3s;
+}
+.illustrator {
+    width: 50%;
+    animation: illustrator 3s;
+}
+.ibispaintx {
+    width: 80%;
+    animation: ibispaintx 3s;
+}
+.canva {
+    width: 70%;
+    animation: canva 3s;
+}
+
+@media screen and (max-width:800px)
+{
+    nav ul li {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 2rem;
+        font-weight: 700;
+        font-size: 13px;
+    }
+
+        .logo-utama {
+            width: 200px;
+            height: 150px;
+        }
+
+        .biodata-content h2 {
+            font-size: 35px;
+        }
+        
+        .biodata-content h1 {
+            font-size: 55px;
+            line-height: 1;
+        }
+        
+        .biodata-content p {
+            font-size: 18px;
+            line-height: 24px;
+        }
+
+        nav div img {
+            width: 190px;
+            height: 35px;
+            margin-top: 5px;
+        }
+}
